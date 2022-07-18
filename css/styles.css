@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f0f2f1;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.tasks {
+    width: 354px;
+    height: 460px;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top: 130px;
+    background-color: white;
+}
+
+.headerElement {
+    width: 354px;
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+
+.myTasksText {
+    text-align: center;
+    padding: 15px;
+}
+
+.addTask {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.addedTask {
+    background-color: #f6f6f6;
+    border: 4px solid whitesmoke;
+    border-left-color: aqua;
+    border-radius: 3px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    resize: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.footerElement {
+    width: 354px;
+    display: flex;
+    justify-content: center;
+}
+
+.listOfTasks {
+    width: 333px;
+    height: 305px;
+    border: 1px solid lightgrey;
+    margin: 10px auto;
+    border-radius: 3px;
+    overflow: scroll;
+}
+
+i {
+    font-size: 20px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -39px;
+    transition: background-color ease-in 1s;
+}
+
+
+
+
+
+
+
